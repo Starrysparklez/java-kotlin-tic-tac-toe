@@ -1,4 +1,4 @@
-package ru.nellyd3v.tictactoe_fx.code
+package ru.starrysparklez.tictactoe_fx
 
 object Data {
     var gameEnd = false

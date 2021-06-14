@@ -1,4 +1,4 @@
-package ru.nellyd3v.tictactoe_fx.code
+package ru.starrysparklez.tictactoe_fx
 
 import javafx.event.ActionEvent
 import javafx.fxml.FXML
@@ -23,7 +23,7 @@ class Controller {
 		restartModal.isResizable = false
 		restartModal.title = "Игра окончена."
 		restartModal.scene = Scene(FXMLLoader.load(
-				javaClass.getResource("/ru/nellyd3v/tictactoe_fx/resources/restartModal.fxml")
+				javaClass.classLoader.getResource("restartModal.fxml")
 		), 250.0, 100.0)
 		if (player != null)
 				(restartModal.scene.lookup("#text") as Label).text = "Победитель: $player\nВаше действие?"

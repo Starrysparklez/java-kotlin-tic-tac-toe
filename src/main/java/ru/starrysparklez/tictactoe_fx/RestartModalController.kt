@@ -1,4 +1,4 @@
-package ru.nellyd3v.tictactoe_fx.code
+package ru.starrysparklez.tictactoe_fx
 
 import javafx.event.ActionEvent
 import javafx.fxml.FXML
